@@ -1,9 +1,6 @@
 import test from 'ava';
-import moment from 'moment';
-import before from './../../src/plugins/date/before';
+import validate from './../../src/rules/before';
 import helpers from './../helpers';
-
-const validate = before(moment);
 
 test('sets the format and inclusion params if not passed', t => {
   const format = 'DD/MM/YYYY';

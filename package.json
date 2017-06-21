@@ -39,6 +39,7 @@
     "babel-register": "^6.24.1",
     "browser-env": "^2.0.31",
     "cross-env": "^5.0.0",
+    "date-fns": "^2.0.0-alpha.1",
     "eslint": "^3.19.0",
     "eslint-config-airbnb-base": "^5.0.0",
     "eslint-plugin-import": "^2.3.0",
